@@ -33,17 +33,14 @@
         <li>
             <a href="javascript:void(0);" class="menu-toggle">
                 <i class="material-icons">map</i>
-                <span>Area</span>
+                <span>Data Master</span>
             </a>
             <ul class="ml-menu">
                 <li>
-                    <a href="pages/maps/google.html">Tanjungpinang</a>
+                    <a href="pages/maps/google.html">Area Parkir</a>
                 </li>
                 <li>
-                    <a href="pages/maps/yandex.html">Bintan</a>
-                </li>
-                <li>
-                    <a href="pages/maps/jvectormap.html">Batam</a>
+                    <a href="pages/maps/yandex.html">Biaya Parkir</a>
                 </li>
             </ul>
         </li>
