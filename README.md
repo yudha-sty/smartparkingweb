@@ -36,3 +36,9 @@ Catatan:
 1. langkah ke satu cukup sekali dilakukan.
 2. kalau `main` tidak jalan ganti pakai `master`.
 3. LAKUKAN LANGKAH INI SETIAP KALI MAU MENGERJAKAN PROJECT SUPAYA TIDAK CONFLICT SAAT MERGE.
+
+## Developer
+1. Mochammad Rizki Romdoni (@mrizkir)
+2. Michael (@michaelghutyy)
+3. Yudha Setyawan (@yudha-sty)
+4. Dwiki Akbar Ramadhan (@dwikiby)
