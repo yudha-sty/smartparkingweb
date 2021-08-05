@@ -21,7 +21,7 @@
 3. git remote add origin (url tujuan git) masukkan url tujuan aplikasi ingin upload di repository yang diinginkan
 4. git remote rm origin (Hapus tujuan Repo) .
 
-### Cara update repositori dari parent (https://github.com/sttindonesia/smartparkingweb)
+### Cara update repositori dari parent (https://github.com/sttindonesiatanjungpinang/smartparkingweb)
 
 Saat seorang developer melakukan Pull Request (PR) kemudian disetujui oleh Maintainer, tidak secara otomatis repo developer lain terupdate. Oleh karena itu masing-masing perlu untuk menyinkronkan dengan parent repo. Caranya adalah sebagai berikut :
 
