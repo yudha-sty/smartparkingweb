@@ -14,7 +14,7 @@
             </div>
             <div class="content">
                 <div class="text">PARKIR TERSEDIA</div>
-                <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>
+                <div class="number count-to" data-from="0" data-to="15" data-speed="15" data-fresh-interval="20"></div>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="content">
                 <div class="text">PARKIR TERISI</div>
-                <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20"></div>
+                <div class="number count-to" data-from="0" data-to="5" data-speed="1000" data-fresh-interval="20"></div>
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@
             </div>
             <div class="content">
                 <div class="text">TIDAK TERDETEKSI</div>
-                <div class="number count-to" data-from="0" data-to="243" data-speed="1000" data-fresh-interval="20"></div>
+                <div class="number count-to" data-from="0" data-to="2" data-speed="1000" data-fresh-interval="20"></div>
             </div>
         </div>
     </div>
@@ -47,20 +47,19 @@
             </div>
             <div class="content">
                 <div class="text">KERUSAKAN</div>
-                <div class="number count-to" data-from="0" data-to="1225" data-speed="1000" data-fresh-interval="20"></div>
+                <div class="number count-to" data-from="0" data-to="2" data-speed="1000" data-fresh-interval="20"></div>
             </div>
         </div>
     </div>
 </div>
-<!-- #END# Widgets -->
-<!-- CPU Usage -->
+
 <div class="row clearfix">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="card">
             <div class="header">
                 <div class="row clearfix">
                     <div class="col-xs-12 col-sm-6">
-                        <h2>CPU USAGE (%)</h2>
+                        <h2>TRANSMISI DATA</h2>
                     </div>
                     <div class="col-xs-12 col-sm-6 align-right">
                         <div class="switch panel-switch-btn">
@@ -75,9 +74,7 @@
                             <i class="material-icons">more_vert</i>
                         </a>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="javascript:void(0);">Action</a></li>
-                            <li><a href="javascript:void(0);">Another action</a></li>
-                            <li><a href="javascript:void(0);">Something else here</a></li>
+                            <li><a href="javascript:void(0);">Cetak laporan transmisi data</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -88,6 +85,6 @@
         </div>
     </div>
 </div>
-<!-- #END# CPU Usage -->
+
 
 @endsection

@@ -71,10 +71,6 @@
         @include('layouts/main-sidebar')
      </asside>
 
-     <!-- Right Sidebar -->
-     <asside id="rightsidebar" class="right-sidebar">
-         @include('layouts/main-rightbar')
-     </asside>
      </section>
 
      <section class="content">
