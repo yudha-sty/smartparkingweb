@@ -14,7 +14,7 @@
 
 1. php artisan key:generate
 
-## Other Docs (solo)
+## Other Docs (solo khusus @yudha-sty)
 
 1. git commit -m "message" memberi komentar
 2. git branch -M main masukkan di repo main/master
@@ -25,7 +25,7 @@
 
 Saat seorang developer melakukan Pull Request (PR) kemudian disetujui oleh Maintainer, tidak secara otomatis repo developer lain terupdate. Oleh karena itu masing-masing perlu untuk menyinkronkan dengan parent repo. Caranya adalah sebagai berikut :
 
-1. git remote add upstream https://github.com/sttindonesia/smartparkingweb.git
+1. git remote add upstream https://github.com/sttindonesiatanjungpinang/smartparkingweb.git
 2. git fetch upstream
 3. git rebase upstream/main
 4. git push origin main --force
