@@ -64,7 +64,7 @@
         </li>
 
         <li>
-            <a href="/monitoring">
+            <a href="{!! route('monitoring.index') !!}">
                 <i class="material-icons">computer</i>
                 <span>Monitoring</span>
             </a>

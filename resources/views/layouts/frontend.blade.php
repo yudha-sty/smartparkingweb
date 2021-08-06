@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -30,7 +29,7 @@
 
     <link href="{{ url ('assets/css/themes/all-themes.css') }}" rel="stylesheet" />
 </head>
-<body class="theme-red">
+<body>
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
@@ -48,37 +47,11 @@
         </div>
     </div>
     <!-- #END# Page Loader -->
-    <div class="overlay"></div>
-    <!-- #END# Overlay For Sidebars -->
-    <!-- Search Bar -->
-    <div class="search-bar">
-        <div class="search-icon">
-            <i class="material-icons">search</i>
-        </div>
-        <input type="text" placeholder="START TYPING...">
-        <div class="close-search">
-            <i class="material-icons">close</i>
-        </div>
-    </div>
-    <!-- #END# Search Bar -->
-     <nav class="navbar">
-         @include('layouts/main-header')
-     </nav>
-
-     <section>
-     <!-- left side bar -->
-     <asside id="leftsidebar" class="sidebar">
-        @include('layouts/main-sidebar')
-     </asside>
-
-     </section>
-
     <section class="content">
         <div class="container-fluid">
         @yield ('content')
         </div>
     </section>
-
     <!-- Jquery Core Js -->
     <script src="{{ url ('assets/plugins/jquery/jquery.min.js') }}"></script>
 
@@ -121,3 +94,4 @@
     <!-- Demo Js -->
     <script src="{{ url ('assets/js/demo.js') }}"></script>
 </body>
+</html>
