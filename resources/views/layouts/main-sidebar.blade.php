@@ -37,7 +37,7 @@
             </a>
             <ul class="ml-menu">
                 <li>
-                    <a href="pages/maps/google.html">Area Parkir</a>
+                    <a href="{!! route('areaparkir.index') !!}">Area Parkir</a>
                 </li>
                 <li>
                     <a href="pages/maps/yandex.html">Biaya Parkir</a>
@@ -52,7 +52,7 @@
             </a>
             <ul class="ml-menu">
                 <li>
-                    <a href="pages/tables/normal-tables.html">Data Area</a>
+                    <a href="/datamaster/areaparkir">Data Area</a>
                 </li>
                 <li>
                     <a href="pages/tables/jquery-datatable.html">Data Role</a>
@@ -69,7 +69,7 @@
                 <span>Monitoring</span>
             </a>
         </li>
-
+ 
     </ul>
 </div>
 <!-- #Menu -->
